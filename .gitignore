@@ -1,0 +1,51 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# Normal rules
+#
+
+*.rej
+*.orig
+*.a
+*.o
+*~
+*.swp
+*.patch
+*.swp
+*.tar
+*.gz
+*.zip
+
+#
+# Top-level generic files
+#
+
+
+#
+# Generated files
+#
+
+*.depend
+/LOG
+/errlog
+/reloc_off
+
+# stgit generated dirs
+patches-*
+
+# quilt's files
+
+# gdb files
+.gdb_history
+
+# cscope files
+cscope.*
+
+# tags files
+/tags
+/ctags
+/etags
+/csc
+
